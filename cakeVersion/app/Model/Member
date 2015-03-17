@@ -1,0 +1,33 @@
+<?php
+class Member extends AppModel
+{
+	/*public $validate = array(
+        'prenom' => array(
+            'alphaNumeric' => array(
+                'rule'     => 'alphaNumeric',
+                'required' => true,
+                'message'  => 'Chiffres et lettres uniquement !'
+                )
+            'between' => array(
+                'rule'    => array('lengthBetween', 3, 15),
+                'message' => 'Entre 3 et 15 caractères'
+            )
+        ),
+        'password' => array(
+            'rule'    => array('lengthBetween', 8, 15),
+            'message' => 'Entre 8 et 15 caractères'
+        ),
+        'e-mail' => 'email',
+    );
+	public function beforeSave($options = array ())
+	{
+		if (isset($this->data[$this->alias]['password']))
+		{
+			$this->data[$this->alias]['password'] = "ça marche po";
+		}
+		else
+		{
+			debug($this->data[$this->alias]['password']);
+		}
+	}*/
+}
