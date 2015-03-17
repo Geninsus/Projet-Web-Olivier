@@ -8,3 +8,4 @@ Pour ce qui est du projet je ferai un commit du dossier "app" que j'ai commencé
 Guillaume{
 Ca marche
 }
+t'as fais un sudo yum install git ?
