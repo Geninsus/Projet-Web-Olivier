@@ -14,7 +14,7 @@ class MembersController extends AppController
 			$this->Member->create($this->request->data, true);
 			$member = $this->request->data;
 			$this->Member->save(null, true, array('name', 'e-mail', 'password'));
-			debug($member);
+			//debug($member);
 			$this->set(compact('member'));
 			$this->render('add-success');
 		}
